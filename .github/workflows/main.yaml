@@ -8,8 +8,8 @@ jobs:
             - name: Hello world action step
               id: hello
               uses: mokhlesurr031/hello-action@v3
-              with:
-                who-to-greet: "Mahin the Boss"
+            #   with:
+            #     who-to-greet: "Mahin the Boss"
             - name: Get the output time
               run: echo "The time was ${{ steps.hello.outputs.time }}"
               
