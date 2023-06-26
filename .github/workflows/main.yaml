@@ -5,12 +5,9 @@ jobs:
         runs-on: ubuntu-latest
         name: A job to say hello
         steps:
-            - name: Checkout repository
-              uses: actions/checkout@v2
-
             - name: Hello world action step
               id: hello
-              uses: mokhlesurr031/hello-action@v1
+              uses: mokhlesurr031/hello-action@v3
               with:
                 who-to-greet: "Mahin the Boss"
             - name: Get the output time
