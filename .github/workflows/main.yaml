@@ -7,7 +7,7 @@ jobs:
         steps:
             - name: Hello world action step
               id: hello
-              uses: actions/hello-action@v1
+              uses: mokhlesurr031/hello-action@v1
               with:
                 who-to-greet: "Mahin the Boss"
             - name: Get the output time
